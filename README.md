@@ -1,2 +1,2 @@
 # .emacs.d
-my own configure of emacs(win and linux)
+emacs configure in linux(computer T460p)
