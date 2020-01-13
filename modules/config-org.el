@@ -11,6 +11,7 @@
   (setq org-agenda-files (list "~/agenda/gtd.org" "~/pc_org/experience.org"))
   (setq org-mobile-inbox-for-pull "~/agenda/inbox.org")
   (setq org-default-notes-file (concat org-directory "notes.org"))
+  (setq org-export-with-sub-superscripts nil)
   ;; 自己的pc
   (cond((equal system-type 'windows-nt)
         (defcustom org-mobile-checksum-binary (or (executable-find "~/bin/GnuWin32/bin/md5sum.exe"))
